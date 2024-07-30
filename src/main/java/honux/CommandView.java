@@ -17,4 +17,12 @@ public class CommandView implements View {
     public void stopSeat(int seatNum) {
         db.stopSeat(seatNum);
     }
+
+    public void simulate(int num) {
+
+        for (int i = 0; i < num; i++) {
+            int n = getSeat();
+            if
+        }
+    }
 }
